@@ -3,10 +3,10 @@
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ## *Olá*! 🐱‍👤
-Obrigado por visitar meus reposítorios, caso tenha interesse pesso que entre em contato comigo atravez do linkedin ou e-mail. Todos os contatos estão disponiveis em meu perfil com facil acesso!
+Obrigado por visitar meus repositórios, caso tenha interesse peço que entre em contato comigo através do linkedin ou e-mail. Todos os contatos estão disponíveis em meu perfil com fácil acesso!
 Sinta-se a vontade para replicar este repositório, ele foi fruto de um desafio do site [Frontend Mentor](https://www.frontendmentor.io). 
 
-De um fork ou faça uma Issue. Estou sempre buscando melhorar cada vez mais e com certeza creceremos juntos com a sua colaboração!!!!
+De um fork ou faça uma Issue. Estou sempre buscando melhorar cada vez mais e com certeza cresceremos juntos com a sua colaboração!!!!
 
 ## técnologias utilizadas
 
