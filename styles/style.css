@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+
+
+:root {
+    /*body*/
+    --pale-blue: hsl(225, 100%, 94%);
+    /*button*/
+    --bright-blue: hsl(245, 75%, 52%);
+    /*main*/
+    --very-pale-blue: hsl(225, 100%, 98%);
+    /*div plan*/
+    --desatured-blue: hsl(224, 23%, 55%);
+    /*i dont know*/
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+* p{
+    font-size: 1em;
+}
+@media (min-width: 375px) and (max-width: 500px) {
+
+    body{
+        background: var(--pale-blue);
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        max-width: 350px;
+        background: white;
+        height: fit-content;
+        border-radius: 1em;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    main #people {
+        box-sizing: border-box;
+        width: 100%;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+
+    .section-title-description {
+        padding: 1.5em;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.7em;
+    }
+    .section-title-description h1{
+        color: var(--dark-blue);
+        font-weight: 900;
+        margin-top: .5em;
+        font-size: 1.4em;
+        text-shadow: 0px 0px 1.4px;
+    }
+    .section-title-description p{
+        font-size: 1em;
+        color: var(--desatured-blue);
+        font-weight: 700;
+        opacity: 60%;
+    }
+    #div-music-plan{
+        background: var(--very-pale-blue);
+        border-radius: 1em;
+        width: 100%;
+        display: flex;
+        padding: 1em;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.2em;
+        
+    }
+    #div-music-plan  span{
+        color: var(--desatured-blue);
+        opacity: 60%;
+        font-weight: 900;
+        font-size: 1em;
+    }
+    #div-music-plan div{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #div-music-plan div #plan-p {
+        color: var(--dark-blue);
+        font-weight: 900;
+        opacity: 100%;
+    }
+    #div-music-plan a{
+        margin-left: 1em;
+        color: var(--bright-blue);
+        font-weight: 600;
+    }
+    .section-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        gap: 1.5em;
+    }
+    .section-button button{
+        background: var(--bright-blue);
+        padding: 1em;
+        border-radius: 15px;
+        font-size: 1em;
+        min-width: 100%;
+        color: var(--pale-blue);
+        border: none;
+        font-weight: 900;
+        box-shadow: 0px 30px 20px;
+
+    }
+    .section-button a {
+        font-weight: 900;
+        text-decoration: none;
+        color: var(--desatured-blue);
+    }
+    .section-button a {
+        font-weight: 900;
+        text-decoration: none;
+        color: var(--desatured-blue);
+        transition: .1s;
+        display: inline;
+        width: fit-content;
+    }
+    .section-button a.muda {
+        color: red;
+    }
+
+
+}
+
+@media (min-width: 500px) and (max-width: 1440px) {
+    body{
+        background: var(--pale-blue);
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        width: 400px;
+        background: white;
+        height: fit-content;
+        border-radius: 1em;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    main #people {
+        box-sizing: border-box;
+        width: 100%;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+
+    .section-title-description {
+        padding: 1.5em;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.7em;
+    }
+    .section-title-description h1{
+        color: var(--dark-blue);
+        font-weight: 900;
+        margin-top: .5em;
+        font-size: 1.4em;
+        text-shadow: 0px 0px 1.4px;
+    }
+    .section-title-description p{
+        font-size: 1em;
+        color: var(--desatured-blue);
+        font-weight: 700;
+        opacity: 60%;
+    }
+    #div-music-plan{
+        background: var(--very-pale-blue);
+        border-radius: 1em;
+        width: 100%;
+        display: flex;
+        padding: 1em;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.2em;
+        
+    }
+    #div-music-plan  span{
+        color: var(--desatured-blue);
+        opacity: 60%;
+        font-weight: 900;
+        font-size: 1em;
+    }
+    #div-music-plan div{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #div-music-plan div #plan-p {
+        color: var(--dark-blue);
+        font-weight: 900;
+        opacity: 100%;
+    }
+    #div-music-plan a{
+        margin-left: 1em;
+        color: var(--bright-blue);
+        font-weight: 600;
+    }
+    .section-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        gap: 1.5em;
+    }
+    .section-button button{
+        background: var(--bright-blue);
+        padding: 1em;
+        border-radius: 15px;
+        font-size: 1em;
+        min-width: 100%;
+        color: var(--pale-blue);
+        border: none;
+        font-weight: 900;
+        box-shadow: 0px 30px 20px;
+
+    }
+    .section-button a {
+        font-weight: 900;
+        text-decoration: none;
+        color: var(--desatured-blue);
+        transition: .1s;
+        display: inline;
+        width: fit-content;
+    }
+    .section-button a.muda {
+        color: red;
+    }
+    
+}
+
+     
