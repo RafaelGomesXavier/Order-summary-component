@@ -18,4 +18,4 @@ Obtive alguma dificuldade com ```@media screen``` para a responsividade e estou 
 <img height="30em" src="https://github.com/devicons/devicon/raw/master/icons/css3/css3-original.svg" style="max-width: 100%;">
 <img height="30em" src="https://github.com/devicons/devicon/raw/master/icons/javascript/javascript-original.svg" style="max-width: 100%;">
 
-**[você pode acessar o projeto clicando aqui!](#olá-🐱‍👤)** 🚀
+**[você pode acessar o projeto clicando aqui!](https://rafaelgomesxavier.github.io/Order-summary-component/)** 🚀
